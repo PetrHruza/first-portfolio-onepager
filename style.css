@@ -30,12 +30,26 @@ img {
 }
 
 p {
-    font-size: 1.4rem;
-    margin-top: 5px;
-    color: black;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  color: black;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.section-title span {
+  color: crimson;
 }
 
 /* HERO Section */
@@ -141,20 +155,6 @@ p {
   padding: 100px 0;
 }
 
-#services .section-title {
-  font-size: 4rem;
-  font-weight: 400;
-  color: black;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-}
-
-#services .section-title span {
-  color: crimson;
-}
-
-
 #services .services-bottom {
   display: flex;
   align-items: center;
@@ -206,10 +206,53 @@ p {
 }
 
 #services .service-item p {
-    color: white;
-    text-align: left;
+  color: white;
+  text-align: left;
 }
 /* end Services Section */
+
+/* Projects Section */
+
+#projects .projects {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#projects .projects-header h1 {
+  margin-bottom: 50px;
+}
+
+#projects .all-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#projects .project-item {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#projects .project-info {
+  padding: 30px;
+  flex-basis: 50%;
+  background-color: #8fd3f4;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+/* end Projects Section */
 
 /* Keyframes */
 @keyframes text_reveal_box {
