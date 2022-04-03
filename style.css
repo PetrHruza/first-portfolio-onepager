@@ -165,6 +165,15 @@ p {
   padding: 100px 0;
 }
 
+#services .services-top {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#services .services-top p {
+    padding: 0 20px;
+}
+
 #services .services-bottom {
   display: flex;
   align-items: center;
@@ -198,7 +207,7 @@ p {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  opacity: 0.8;
+  opacity: 0.9;
   z-index: -1;
 }
 
@@ -488,7 +497,7 @@ p {
 }
 /* end Keyframes */
 
-/* Media Query fot tabler */
+/* Media Query fot tablet */
 
 @media only screen and (min-width: 768px) {
   .cta {
@@ -596,4 +605,17 @@ p {
 
   /* end Contact section */
 }
-/* end Media Query fot tabler */
+/* end Media Query fot tablet */
+
+@media only screen and (min-width: 1200px) {
+
+#services .services-bottom .service-item {
+    flex-basis: 22%;
+    margin: 1.5%;
+}
+
+}
+
+/* Media Query fot desktop */
+
+
