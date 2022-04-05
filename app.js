@@ -19,8 +19,8 @@ document.querySelectorAll(".navlink").forEach((n) =>
 document.addEventListener("scroll", () => {
   let scrollPosition = window.scrollY;
   if (scrollPosition > 150) {
-    header.style.backgroundColor = '#29323c';
+    header.style.backgroundColor = "#29323c";
   } else {
-    header.style.backgroundColor = 'transparent';
+    header.style.backgroundColor = "transparent";
   }
 });
